@@ -1,0 +1,12 @@
+{
+  "DevelopmentEnvironment": {
+    "EnvironmentName": "Development",
+    "DataLayer": {
+      "ServerName": "127.0.0.1",
+      "Login": "LoginTest",
+      "Password": "123456789/a",
+      "DbName": "testdb",
+      "ConnectionString": "Data Source=127.0.0.1;Initial Catalog=testdb;User ID=LoginTest;Password=123456789/a;Trust Server Certificate=True"
+    }
+  }
+}

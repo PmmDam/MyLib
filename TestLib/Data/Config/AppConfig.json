@@ -1,0 +1,11 @@
+{
+  "GeneralSettings": {
+    "LogEnabled": true,
+    "ActualEnvironment": "Development"
+  },
+  "UserData": {
+    "IdUser": 0,
+    "Name": "Pablo",
+    "Password": "123456789/a"
+  }
+}

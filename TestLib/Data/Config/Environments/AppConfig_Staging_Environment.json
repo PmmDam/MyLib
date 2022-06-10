@@ -1,0 +1,12 @@
+{
+  "StagingEnvironment": {
+    "EnvironmentName": "Staging",
+    "DataLayer": {
+      "ServerName": "127.0.0.1",
+      "Login": "LoginTest",
+      "Password": "123456789/a",
+      "DbName": "UD_09",
+      "ConnectionString": "Data Source=127.0.0.1;Initial Catalog=UD_09;User ID=LoginTest;Password=123456789/a;Trust Server Certificate=True"
+    }
+  }
+}

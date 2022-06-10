@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace MyLib.Json.Serializer
 {
-    public static class SerializerService
+    public static class JsonSerializerService
     {
 
         private static JsonSerializerOptions _serializerOptions { get; set; }

@@ -1,7 +1,7 @@
 ﻿using Microsoft.Data.SqlClient;
 using System.Data;
 
-namespace MyLib.SQL.SqlServer
+namespace MyLib.Sql.SqlServer
 {
     public interface ISqlService
     {

@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MyLib.SQL.SqlServer
+namespace MyLib.Sql.SqlServer
 {
     /// <summary>
     /// This class is used to make querys to a SQL SERVER database, it must have a default connection string 

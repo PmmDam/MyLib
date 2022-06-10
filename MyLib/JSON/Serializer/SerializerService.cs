@@ -6,7 +6,7 @@ using System.Text.Encodings.Web;
 using System.Text.Json;
 using System.Threading.Tasks;
 
-namespace MyLib.JSON.Serializer
+namespace MyLib.Json.Serializer
 {
     public static class SerializerService
     {

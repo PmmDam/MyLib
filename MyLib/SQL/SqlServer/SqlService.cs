@@ -375,7 +375,7 @@ namespace MyLib.SQL.SqlServer
         /// Check the connection with the database
         /// </summary>
         /// <returns>Return true if the connection works properly</returns>
-        public bool CheckConnection()
+        public async Task<bool>CheckConnectionAsync()
         {
             bool result = false;
 
@@ -383,7 +383,7 @@ namespace MyLib.SQL.SqlServer
 
             try
             {
-                conn.Open();
+                await conn.OpenAsync();
                 result = true;
             }
 
@@ -391,7 +391,7 @@ namespace MyLib.SQL.SqlServer
             {
                 if (conn != null)
                 {
-                    conn.Dispose();
+                    await conn.DisposeAsync();
                 }
             }
 

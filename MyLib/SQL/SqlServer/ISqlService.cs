@@ -7,7 +7,7 @@ namespace MyLib.SQL.SqlServer
     {
         string DefaultConnectionString { get; }
 
-        bool CheckConnection();
+        Task<bool>CheckConnectionAsync();
         string CreateConnectionString(string serverName, string login, string password, string dbname);
         Task<int> ExecuteNonQueryAsync(string query, CommandType queryType, params SqlParameter[] parameters);
         Task<int> ExecuteNonQueryAsync(string connectionString, string query, CommandType queryType, params SqlParameter[] parameters);

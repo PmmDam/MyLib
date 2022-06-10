@@ -45,9 +45,9 @@ namespace MyLib.Sql.SqlServer
         }
 
 
-        public SqlService(string connectionString)
+        public SqlService(string defaultConnectionString)
         {
-            this._defaultConnectionString = connectionString;
+            this._defaultConnectionString = defaultConnectionString;
         }
         public SqlService(string serverName, string login, string password, string dbname)
         {
@@ -55,6 +55,10 @@ namespace MyLib.Sql.SqlServer
             this._login = login;
             this._password = password;
             this._dbName = dbname;
+        }
+        public SqlService()
+        {
+
         }
 
         /// <summary>
